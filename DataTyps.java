@@ -11,7 +11,17 @@
 
 */
 public class DataTyps{
+
 	public static void main(String[] Args){
-		System.out.println("Just Keeping the streak alive");
+		String unitCode = "BSD 3205";
+		String description= "EMBEDED SYSTEMS";
+		int creditHours= 3;
+		char grade='A';
+		float points= 12.0f;
+		
+		System.out.println("_______________________________________________________________");
+		System.out.println("| UNIT CODE |   DESCRIPTION   | CREDIT HOURS | GRADE | POINTS |");
+		System.out.println("| " + unitCode + "  | " + description + " |      " + creditHours + "       |   " + grade + "   |  " + points + "  |");
+		System.out.println("---------------------------------------------------------------");
 	}
 }
